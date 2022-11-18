@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+#form{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+#input{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bubble{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #444;
+    margin: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.mine{
+    text-align: right;
+}
+
+.mine .bubble{
+    background-color: rgb(85, 15, 128);
+}
